@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Photoflash – Contact</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+  <link rel="stylesheet" href="contact-style.css"/>
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav>
+    <div class="logo">Photo<span>F</span>lash</div>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="contact.html" class="active">Contact</a></li>
+    </ul>
+    <i class="fa-solid fa-bars menu-btn"></i>
+  </nav>
+
+  <!-- BREADCRUMB -->
+  <div class="breadcrumb">
+    <a href="index.html">Home</a> &nbsp;»&nbsp; <span>Contact Page</span>
+  </div>
+
+  <!-- CONTACT SECTION -->
+  <section class="contact-section">
+
+    <!-- Header -->
+    <div class="contact-header">
+      <p class="section-label">CONTACT WITH US</p>
+      <h1>Get in Touch with Us</h1>
+      <p class="contact-sub">If you have a question regarding our services, feel free to contact us using the form below.</p>
+    </div>
+
+    <!-- Body: Info Cards + Form -->
+    <div class="contact-body">
+
+      <!-- LEFT: Info Cards -->
+      <div class="info-cards">
+
+        <div class="info-card">
+          <div class="info-icon">
+            <i class="fa-solid fa-map"></i>
+          </div>
+          <div class="info-text">
+            <h3>Address</h3>
+            <p>#343, 9th Floor, VHMV-47<br/>Honey Land, New York.</p>
+          </div>
+        </div>
+
+        <div class="info-card">
+          <div class="info-icon">
+            <i class="fa-solid fa-envelope"></i>
+          </div>
+          <div class="info-text">
+            <h3>Email</h3>
+            <p>mailone@example.com</p>
+          </div>
+        </div>
+
+        <div class="info-card">
+          <div class="info-icon">
+            <i class="fa-solid fa-headset"></i>
+          </div>
+          <div class="info-text">
+            <h3>Phone</h3>
+            <p class="phone">+12 424-096-439</p>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- RIGHT: Contact Form -->
+      <div class="contact-form">
+        <div class="form-row">
+          <input type="text" placeholder="Enter your name *" />
+          <input type="text" placeholder="Enter subject" />
+        </div>
+        <div class="form-row">
+          <input type="email" placeholder="Enter your email *" />
+          <input type="tel" placeholder="Enter your Phone Number *" />
+        </div>
+        <div class="form-row">
+          <textarea placeholder="Type your query here"></textarea>
+        </div>
+        <div class="form-footer">
+          <button class="btn-submit">Submit Now</button>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- SCROLL TO TOP -->
+  <button class="scroll-top" onclick="window.scrollTo({top:0,behavior:'smooth'})">
+    <i class="fa-solid fa-chevron-up"></i>
+  </button>
+<script src="contact.js"></script>
+</body>
+</html>
